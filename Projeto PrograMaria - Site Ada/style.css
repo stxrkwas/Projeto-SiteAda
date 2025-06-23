@@ -1,0 +1,145 @@
+/* Corpo da página */
+body{
+
+    /* Alinhamento do texto */
+    text-align: center;
+
+    /* Tipo de fonte dos textos: fonte principal e genérica */
+    font-family: 'Open Sans', sans-serif;
+
+    /* Cor de fundo da página */
+    background-color: #8A71C9;
+
+    /* Cor do texto da página */
+    color: #ffffff;
+
+    margin: 0%;
+
+    margin: 0px 0px 30px 0px;
+}
+
+/* Título da página */
+h1{
+
+    /* Tamanho da fonte */
+    font-size: 60px;
+
+    /* Grossura da fonte */
+    font-weight: 300;
+}
+
+/* Seção da Ada Lovelace */
+section{
+
+    /* Largura máxima da seção; porcentagens são unidades relativas que melhoram a portabilidade do site. */
+    width: 60%;
+
+    /* Tamanho da margem automática */
+    margin: 0 auto;
+}
+
+/* Seções dentro da seção principal */
+section section{
+    width: 100%
+}
+
+/* Barra de navegação */
+.principal{
+    background-color: #ff6cb5;
+    height: 40px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* Itens de lista da barra de navegação */
+.principal li{
+
+    /* Mostrar blocos alinhados */
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+}
+
+/* Âncoras da barra de navegação */
+.principal ul li a{
+    color: white;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+/* Subtítulo da página */
+h2{
+    color: #2a0074;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 22px;
+
+    /* Estilo da fonte */
+    font-style: italic;
+}
+
+/* 3º título da página */
+.titulo-verde{
+    color: #04ff9f;
+}
+
+/* 4º título da página */
+.titulo-vermelho{
+    color: #ff9e9e;
+}
+
+/* 5º título da página */
+.titulo-amarelo{
+    color: #ffe36d;
+}
+
+/* Parágrafo */
+p {
+
+    /* Espaçamento entre as linhas */
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+/* Imagem */
+img{
+
+    /* Largura da imagem */
+    width: 100%;
+}
+
+/* Lista não ordenada*/
+ul{
+
+    /* Tipo de estilo de lista */
+    list-style-type: none;
+    line-height: 2;
+
+    /* Espaçamento interno à esquerda */
+    padding-left: 0;
+}
+
+/* Âncora */
+a{
+    /* Decoração de texto */
+    text-decoration: none;
+    color: #99ffff;
+    font-weight: 700;
+}
+
+/* Botão */
+button{
+
+    background-color: #41f341;
+
+    /* Tamanho, estilo e cor da borda */
+    border: 1px solid transparent; 
+
+    /* Espaço interno em cima e embaixo (2px) e dos lados (20px) */
+    padding: 2px 20px;
+
+    /* Raio da borda */
+    border-radius: 3px;
+}
